@@ -7,29 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <button onclick="show()" id="show">Show</button>
-    <div class="overlay"></div>
-    <div class="popupbox">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis necessitatibus alias natus, velit maxime ratione modi molestiae dolorem rerum mollitia molestias iure, dolores a vitae eligendi tempore dolorum ipsum maiores!</p>
-        <button onclick="closepopup()">Close</button>
-    </div> -->
     <div class="header">
-        <h1>BooK StorE</h1>
+        <h1>BooK NotE</h1>
     </div>
-    <div class="popupback">
-        <div class="popupbox">
+    <div class="bookscontainer">
+        <div class="cards">
+            <h1>GenriO</h1>
+            <h4>TeamRio</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus asperiores rem pariatur, sit tempore inventore? Et qui voluptatibus aliquid minima dignissimos. Error, id dolorum non reiciendis quas quam excepturi sequi!</p>
+            <button id="btndel" onclick="delcard(event)">delete</button>
+        </div>
 
+    </div>
+    <div class="popupback"></div>
+        <div class="popupbox">
             <form action="">
-                <input type="text" name="" id="book" placeholder="Book Name">
-                <input type="text" name="" id="author" placeholder="Author Name">
-                <input type="text"p aceholder="Description"><br>
+                <input type="text" id="book" placeholder="Book Name">
+                <input type="text" id="author" placeholder="Author Name">
+                <input type="textarea" id="description" placeholder="Description"><br>
                 <button id="doneadd">Done</button>
                 <button id="canceladd">Cancel</button>
             </form>
         </div>
-    </div>
+    
 
     <button id="plus">+</button>
+    <footer>
+        <p style="font-weight: 500;">&copy;&nbsp;2023 GenRio | All Rights Reserved</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
